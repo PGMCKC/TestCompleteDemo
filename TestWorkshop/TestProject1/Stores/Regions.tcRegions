@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="Type_here_to_search" key="{08D06011-18DC-4B54-A181-EB1F457BF2EF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Type_here_to_search" ID="{08D06011-18DC-4B54-A181-EB1F457BF2EF}" FileName="Regions\Type_here_to_search.png" Update="False" />
+		</child>
+		<child name="Shell_TrayWnd" key="{74421531-7928-463F-AC9C-39B1B89CB179}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Shell_TrayWnd" ID="{74421531-7928-463F-AC9C-39B1B89CB179}" FileName="Regions\Shell_TrayWnd.png" Update="False" />
+		</child>
+		<child name="Icon_Topics" key="{884CDA56-2802-453F-893F-72FA872469DE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="Icon_Topics" ID="{884CDA56-2802-453F-893F-72FA872469DE}" FileName="Regions\Icon_Topics.png" Update="False" />
+		</child>
+		<child name="icon_w3schools" key="{106A6432-34A0-478B-B9DC-FF2857C50A26}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="icon_w3schools" ID="{106A6432-34A0-478B-B9DC-FF2857C50A26}" FileName="Regions\icon_w3schools.png" Update="False" />
+		</child>
+		<child name="panelBecomeA" key="{8F208B6D-2A22-4D52-8DA5-6CEE5FDBDBAF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelBecomeA" ID="{8F208B6D-2A22-4D52-8DA5-6CEE5FDBDBAF}" FileName="Regions\panelBecomeA.png" Update="False" />
+		</child>
+	</children>
+</Root>

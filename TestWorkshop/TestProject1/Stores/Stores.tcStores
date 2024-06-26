@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="15.0">
+	<children>
+		<child name="Files" key="{4B13BB12-5DF4-4642-8FB5-1FB145BD4FEF}" type="Files" typeId="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" pluginName="Stores" path="Files.tcFiles" />
+		<child name="Regions" key="{67E99437-8A62-4535-9BD4-72D8DB0D8956}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
+	</children>
+</Root>

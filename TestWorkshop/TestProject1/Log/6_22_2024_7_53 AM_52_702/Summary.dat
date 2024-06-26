@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="7703"/>
+						<Prp name="durationwithoutchildren" type="I" value="7703"/>
+						<Prp name="starttime" type="D" value="45465.3290861343"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADcAQQBDADcANAAyADAALQA4ADcAQQA2AC0ANAA3ADIAMAAtADkAMwA5AEIALQA2AEIANgA2ADQARgAxADUANQA0AEEANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="7703"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45465.3290861343"/>
+				<Prp name="name" type="S" value="TestProject1"/>
+			</Node>
+		</Node>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45465.3290823148"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="45465.3291766782"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TestProject1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{741720CC-5E36-461C-AC66-E2C0B7E1576F}"/>
+		<Prp name="user" type="S" value="labuser"/>
+		<Prp name="name" type="S" value="TestWorkshop"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="eduoracledb"/>
+	</Node>
+</Nodes>

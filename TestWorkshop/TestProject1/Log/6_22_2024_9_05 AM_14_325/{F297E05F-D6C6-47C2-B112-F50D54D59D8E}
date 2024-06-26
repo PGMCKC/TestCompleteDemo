@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="45465.378642419"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_Installer_NPP.Btn_OK"/>
+					<Prp name="object bottom" type="I" value="145"/>
+					<Prp name="click point y" type="I" value="133"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="122"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="191"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="116"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45465.3786442708"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_Installer_NPP.Btn_OK&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Installer_Language&quot;).UIAObject(&quot;OK&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{83846CDF-E7FE-4F50-A44B-1FFBFCCB04B5}"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

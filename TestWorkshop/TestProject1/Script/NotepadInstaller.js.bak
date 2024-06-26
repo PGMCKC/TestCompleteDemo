@@ -1,0 +1,45 @@
+﻿function NotepadInstaller()
+{
+  //Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Log.AppendFolder("Script to Install Notepad ++ in system.", "");
+  //Log.Message("Step 2.", "");
+  if(Aliases.npp.Exists == true)
+  {
+    //Closes the process by sending the close command to its main window.
+    Sys.Process("npp").Close();
+    //Performs a single click on the specified button.
+    Aliases.npp.Popup_CancelConfirmation.Btn_Yes.ClickButton();
+  }
+  //Runs the "npp" tested application.
+  TestedApps.npp.Run();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Popup_Installer_NPP.Btn_OK.ClickButton();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Popup_SetupWizard_Npp.Btn_Next.ClickButton();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Popup_SetupWizard_Npp.Btn_IAgree.ClickButton();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Popup_SetupWizard_Npp.Btn_Next.ClickButton();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Popup_SetupWizard_Npp.Btn_Next.ClickButton();
+  
+  //Performs a single click on the specified button.
+  Aliases.npp.Notepad_v8_6_7_Setup3.Btn_Install.ClickButton();
+  
+  //Performs a single click on the specified button.
+  var LastResult;
+  LastResult = Aliases.npp.Notepad_v8_6_7_Setup3.Btn_Finish.ClickButton();
+  if(LastResult == true)
+  {
+    //Posts an information message to the test log.
+    Log.Message("Notepad++ Installed successfully.", "");
+  }
+  
+  //Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Log.PopLogFolder();
+}

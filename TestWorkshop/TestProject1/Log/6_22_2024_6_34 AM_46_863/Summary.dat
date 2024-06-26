@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning3">
+								<Prp name="msg" type="S" value="The &quot;Finish&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;Install&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;I_Agree&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;Notepad_v8_6_7_Setup&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="45465.2741536227"/>
+						<Prp name="duration" type="I" value="78762"/>
+						<Prp name="durationwithoutchildren" type="I" value="78762"/>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxAEEAMQBGAEEAMwA3AEUALQBGADIAMAA0AC0ANAAwAEYAQgAtAEIAMABGADkALQBEAEYARgA0ADkAQgA4ADIAOQA5AEMAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="1"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45465.2741536227"/>
+				<Prp name="duration" type="I" value="78762"/>
+				<Prp name="name" type="S" value="TestProject1"/>
+				<Prp name="warningtests" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="labuser"/>
+		<Prp name="stop" type="D" value="45465.2750668403"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="45465.2741536227"/>
+		<Prp name="testname" type="S" value="TestProject1"/>
+		<Prp name="key" type="S" value="{26CC41D4-6A0E-49B8-86B8-FD292821B361}"/>
+		<Prp name="host" type="S" value="eduoracledb"/>
+		<Prp name="name" type="S" value="TestWorkshop"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

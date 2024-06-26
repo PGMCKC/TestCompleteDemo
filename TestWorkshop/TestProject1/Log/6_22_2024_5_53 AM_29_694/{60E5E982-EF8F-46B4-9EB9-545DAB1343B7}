@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="45465.245485463"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The close command was sent to the process &quot;npp&quot;. Failed to wait for the process to close due to an unexpected window."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The close command was send to the dialog with the 'Notepad++ v8.6.7 Setup ' caption. The process displayed a dialog with the 'Notepad++ v8.6.7 Setup' caption.&#xA;&#xA;Tested object:&#xA;Aliases.npp&#xA;(Sys.Process(&quot;npp&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{E23C2388-087F-4D68-A6A5-C4F95D441527}"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="137"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_CancelConfirmation.Btn_Yes"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="246"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="284"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object left" type="I" value="209"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="45465.245486331"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="125"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="45465.2454880671"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_CancelConfirmation.Btn_Yes&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;, 2).UIAObject(&quot;Yes&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

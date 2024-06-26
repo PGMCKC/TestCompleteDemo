@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45465.2902137384"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Step 1. Click on Login link."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45465.2902137384"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Step 1. Click on Login&#xA;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1070"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.290301956"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="559"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="519"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Login_W3Schools.Txtbox_Email"/>
+					<Prp name="object right" type="I" value="1400"/>
+					<Prp name="line #" type="I" value="5"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45465.2903031134"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.Page_Login_W3Schools.Txtbox_Email&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://profile.w3schools.com/login?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F&quot;).FindElement(&quot;//input[@name='email']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'prateek' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{83846CDF-E7FE-4F50-A44B-1FFBFCCB04B5}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1070"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2902900116"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="559"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="519"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_Login_W3Schools.Txtbox_Email"/>
+					<Prp name="object right" type="I" value="1400"/>
+					<Prp name="line #" type="I" value="4"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45465.2903012268"/>
+			<Prp name="remarks" type="S" value="'prateeekgoyal@gmail.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_Login_W3Schools.Txtbox_Email&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://profile.w3schools.com/login?redirect_url=https%3A%2F%2Fwww.w3schools.com%2F&quot;).FindElement(&quot;//input[@name='email']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45465.2902891782"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;You can improve the performance of the object search in the test.&lt;/p&gt;&lt;p&gt;The &lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageLogInW3schools.&amp;#8203;&lt;a href=&quot;namemapping://{C627C715-C3EE-4261-A825-212B32E0DFD4}.{6F654481-BDA9-4514-8426-40125783157C}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textboxEmail&lt;/span&gt;&lt;/a&gt;&lt;/code&gt; object&lt;/p&gt;&lt;p&gt;can be found faster if you make &lt;code&gt;//input[@name='email']&lt;/code&gt; the first selector in its selector list.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;reorderselectors://54Wh5r2zAQAEAHJvb3QGAAcAcHJvamVjdAEAJABDNjI3QzcxNXhDM0VFeDQyNjF4QTgyNXgyMTJC&#xA;MzJFMERGRDQEAG1vZGUAAAIAAgBubQEAJAA2RjY1NDQ4MXhCREE5eDQ1MTR4ODQyNng0MDEyNTc4&#xA;MzE1N0MGAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24JAHByb3Bjb3VudAAAAAAEAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24EAAsAZm91bmR2YWx1ZXMFAAEAMQEAcQBANzgwMDcwMDA2MTAwNzQw&#xA;MDY4MDAzRDAwMkYwMDJGMDA2OTAwNkUwMDcwMDA3NTAwNzQwMDVCMDA0MDAwNkUwMDYxMDA2RDAw&#xA;NjUwMDNEMDAyNzAwNjUwMDZEMDA2MTAwNjkwMDZDMDAyNzAwNUQwMAEAMAEAMAAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDABADMBAEEAQDYzMDA3MzAwNzMw&#xA;MDNEMDA0MTAwNjQwMDY0MDAyMDAwNzMwMDY1MDA2QzAwNjUwMDYzMDA3NDAwNkYwMDcyMDABADIB&#xA;AG0AQDc4MDA3MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1&#xA;QjAwNDAwMDc0MDA3OTAwNzAwMDY1MDAzRDAwMjcwMDc0MDA2NTAwNzgwMDc0MDAyNzAwNUQwMAEA&#xA;NAEAQQBANjMwMDczMDA3MzAwM0QwMDQxMDA2NDAwNjQwMDIwMDA3MzAwNjUwMDZDMDA2NTAwNjMw&#xA;MDc0MDA2RjAwNzIwMAAABwBtYXRjaGVkAAAAAAYAdmFsdWVzBAABADABAHEAQDc4MDA3MDAwNjEw&#xA;MDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDZFMDA2MTAw&#xA;NkQwMDY1MDAzRDAwMjcwMDY1MDA2RDAwNjEwMDY5MDA2QzAwMjcwMDVEMDABADEBAG0AQDc4MDA3&#xA;MDAwNjEwMDc0MDA2ODAwM0QwMDJGMDAyRjAwNjkwMDZFMDA3MDAwNzUwMDc0MDA1QjAwNDAwMDc0&#xA;MDA3OTAwNzAwMDY1MDAzRDAwMjcwMDc0MDA2NTAwNzgwMDc0MDAyNzAwNUQwMAEAMgEAQQBANjMw&#xA;MDczMDA3MzAwM0QwMDQxMDA2NDAwNjQwMDIwMDA3MzAwNjUwMDZDMDA2NTAwNjMwMDc0MDA2RjAw&#xA;NzIwMAEAMwEAQQBANjMwMDczMDA3MzAwM0QwMDQxMDA2NDAwNjQwMDIwMDA3MzAwNjUwMDZDMDA2&#xA;NTAwNjMwMDc0MDA2RjAwNzIwMAAABQBuYW1lcwAAAAA=&quot;&gt;Improve Performance&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;!--p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul--&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="message" type="S" value="Improve your test performance."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45465.2902571528"/>
+			<Prp name="remarks" type="S" value="URL: www.w3schools.com&#xA;&#xA;Aliases.browser"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the www.w3schools.com page."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="1648"/>
+					<Prp name="click point y" type="I" value="167"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2902590741"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="187"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="147"/>
+					<Prp name="click point x" type="I" value="1704"/>
+					<Prp name="object name" type="S" value="Aliases.browser.Page_LandingW3Schools.Link_Login"/>
+					<Prp name="object right" type="I" value="1760"/>
+					<Prp name="line #" type="I" value="3"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="date" type="D" value="45465.2902605903"/>
+			<Prp name="remarks" type="S" value="A click at point (56, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.Page_LandingW3Schools.Link_Login&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://www.w3schools.com/&quot;).FindElement(&quot;//a[contains(text(), 'Log in')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="date" type="D" value="45465.2902234491"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.126.0.6478.63 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;www.w3schools.com&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;8908&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Google Chrome was launched."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{FEB3CF5A-CE8B-4824-A28B-4EFBE1B7A76E}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{D7EA10E4-7457-4304-91A1-5DF1A0252741}">
+			<config nodeName="npp" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="npp.exe" filePath="C:\Users\labuser\Downloads\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{C2E2F2FF-F976-4300-831D-CD9D521A7647}">
+			<config nodeName="chrome" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="www.w3schools.com" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="www.w3schools.com" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="www.w3schools.com" workFolder="" />
+					<param name="Simple" fileName="chrome.exe" filePath="C:\Program Files\Google\Chrome\Application\" parameters="www.w3schools.com" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{61E652CE-A30C-4608-9B55-0BB4A28D8D70}">
+			<config nodeName="notepad__" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="C:\Users\labuser\Desktop\Prateek.txt" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="C:\Users\labuser\Desktop\Prateek.txt" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="C:\Users\labuser\Desktop\Prateek.txt" workFolder="" />
+					<param name="Simple" fileName="notepad++.exe" filePath="C:\Program Files\Notepad++\" parameters="C:\Users\labuser\Desktop\Prateek.txt" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{DFA93F12-2F37-4889-B5D5-786F43180ADB}">
+			<config nodeName="notepad__1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="notepad++.exe" filePath="C:\Program Files\Notepad++\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

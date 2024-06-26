@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="SmokeSuite" />
+		<child name="Test1" key="{83846CDF-E7FE-4F50-A44B-1FFBFCCB04B5}" path="Test1.tcKDTest" />
+		<child name="Test2" key="{E23C2388-087F-4D68-A6A5-C4F95D441527}" path="Test2.tcKDTest" />
+		<child name="Test3" key="{9322F7AB-1053-4A5B-99BF-00E0805C9DDA}" path="Test3.tcKDTest" />
+	</children>
+</Root>

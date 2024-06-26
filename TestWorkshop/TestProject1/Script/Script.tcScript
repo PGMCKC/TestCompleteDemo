@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="CommonFunctions">
+			<child name="NotepadInstaller" key="{392D12C1-08FA-4E61-BD79-87D13C4B364A}" path="NotepadInstaller.js" />
+			<child name="VerifyImage" key="{A1BB7B77-5B15-43EB-A529-75AC18034A94}" path="VerifyImage.js" />
+			<child name="FindObject" key="{CFAE5BCA-7401-4897-859E-57D247A69B13}" path="FindObject.js" />
+		</folder>
+		<folder name="RegressionSuite">
+			<child name="Main" key="{A7B78233-3B53-44FF-911B-D785AA9CD630}" path="Main.js" />
+			<child name="WebandDesktopIntegrated_Feature" key="{D88FF5F8-8136-42B4-BBDC-32B857E7ED65}" path="WebandDesktopIntegrated_Feature.js" />
+		</folder>
+		<folder name="SmokeSuite" />
+		<folder name="SanitySuite" />
+		<folder name="Test script">
+			<child name="dummy" key="{BE67AB10-CCFA-4E92-8188-4CFC2E9F54BC}" path="dummy.js" />
+			<child name="OnStart" key="{7D1258D1-B9AE-4CD7-8478-E7A13CF91086}" path="OnStart.js" />
+			<child name="UnexpectedWindow" key="{5CEA589A-59E7-4B75-8F28-3B44A92C655B}" path="UnexpectedWindow.js" />
+			<child name="Unit1" key="{104A3EA4-2081-4855-885F-4117E438A060}" path="Unit1.js" />
+			<child name="Unit2" key="{F0A295A1-EA72-42BD-88DD-8C15E1BF85CC}" path="Unit2.js" />
+		</folder>
+	</children>
+</Root>

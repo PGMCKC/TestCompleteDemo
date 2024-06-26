@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45464.3113135532"/>
+						<Prp name="duration" type="I" value="89"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADMAMgA4AEYAMAA2AEQALQBBADMAMABEAC0ANAA3ADAANgAtADkAOQBCADkALQBCADgARAAwADkAQQBEADQANwA1AEMARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="durationwithoutchildren" type="I" value="89"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;Link_Login&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45464.3111908102"/>
+						<Prp name="duration" type="I" value="10597"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADUARABBADcAMQBGADUALQBFADcAMgBEAC0ANAA5ADIANgAtAEEARABBADEALQA3ADQAMwA5ADUANwBDADEAQQAyAEUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="durationwithoutchildren" type="I" value="10597"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="45464.3111908102"/>
+				<Prp name="duration" type="I" value="10686"/>
+				<Prp name="name" type="S" value="TestProject1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="labuser"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="starttime" type="D" value="45464.311190463"/>
+		<Prp name="stop" type="D" value="45464.3113164236"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{BD92E494-80BC-4D1A-A4C5-8293DB8F1410}"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="eduoracledb"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="name" type="S" value="TestWorkshop"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TestWorkshop"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

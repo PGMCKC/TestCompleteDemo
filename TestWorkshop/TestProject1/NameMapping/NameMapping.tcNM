@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7651D55A-F320-4216-A468-D20633EEED61}">
+				<TypeInfo Item0="{EBF7BDA7-BACA-47D8-A435-A4E319E03C0B}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{97310D44-43ED-426C-B598-36195B1E912A}">
+						<TypeInfo Item0="{737C043B-29FE-4FD3-83B5-BFC7916BBFBD}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageW3schoolsOnlineWebTutorials" Key="{F59B0ED2-E899-4DC3-A88A-13BB07FB2D2C}">
+								<Image FileName="-1703054158" Left="8" Top="147" Right="1800" Bottom="1088" />
+								<TypeInfo Item0="{F6AB31C8-D9ED-4929-A885-557E28D397FF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.w3schools.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLoginToYourAccount" Key="{B9B048E3-8334-497F-92C0-723196A0FB36}">
+										<Image FileName="-1703054158" Left="1656" Top="155" Right="1768" Bottom="195" />
+										<TypeInfo Item0="{14FB0F91-2142-48B3-8B4F-D4284C92AD54}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Log in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;tnb-login-btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogInW3schools" Key="{E84D129D-C956-46BD-9565-B6CD02F64C55}">
+								<Image FileName="-46705385" Left="8" Top="95" Right="1800" Bottom="1088" />
+								<TypeInfo Item0="{F6AB31C8-D9ED-4929-A885-557E28D397FF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://profile.w3schools.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formForgotPassword" Key="{8E50249D-A6F1-401D-AEEB-674E578A36EA}">
+										<Image FileName="-46705385" Left="1078" Top="478" Right="1408" Bottom="621" />
+										<TypeInfo Item0="{10854FBD-DABB-4C8C-B52D-4AFEE03B1156}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Forgot Password?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;LoginForm_login_form__NDkUT&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmail" Key="{6F654481-BDA9-4514-8426-40125783157C}">
+										<Image FileName="-46705385" Left="1078" Top="478" Right="1408" Bottom="518" />
+										<TypeInfo Item0="{B90E7BB1-9122-4C01-B788-ED5625CFB404}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="css=Add selector" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="css=Add selector" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{95201232-7FF2-4E77-BEF0-8C87163BBCB9}">
+										<Image FileName="-2097117832" Left="1078" Top="261" Right="1416" Bottom="299" />
+										<TypeInfo Item0="{10854FBD-DABB-4C8C-B52D-4AFEE03B1156}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Log In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBecomeA" Key="{5C5E50C8-DB36-4625-A371-CF9AC5C6A398}">
+										<Image FileName="88965098" Left="296" Top="95" Right="1016" Bottom="1088" />
+										<TypeInfo Item0="{10854FBD-DABB-4C8C-B52D-4AFEE03B1156}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;LeftSide_leftSideContainer__z2-js&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageW3schoolsOnlineWebTutorials2" Key="{D7215A51-8B50-42D7-A955-531B91D1816D}">
+								<Image FileName="239131731" Left="8" Top="95" Right="1800" Bottom="1088" />
+								<TypeInfo Item0="{F6AB31C8-D9ED-4929-A885-557E28D397FF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.w3schools.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxSearchField" Key="{672F4B53-1FD6-4A12-ACC3-565F987BA19F}">
+										<Image FileName="239131731" Left="516" Top="105" Right="691" Bottom="141" />
+										<TypeInfo Item0="{B90E7BB1-9122-4C01-B788-ED5625CFB404}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Search field&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#tnb-google-search-input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pagetop&apos;]/div/div/input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pagetop&apos;]/div/div/input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignUpToImproveYourLearning" Key="{F1FD9ED3-7BBE-49CD-B172-019176CE6363}">
+										<Image FileName="1624241228" Left="1594" Top="95" Right="1687" Bottom="135" />
+										<TypeInfo Item0="{2AF9117F-2C6B-4C8B-ADB3-84036DCE4969}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Sign Up&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;tnb-signup-btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{C8D5DEC2-1562-4665-9940-7EAE37B542F6}">
+								<Image FileName="-1886698016" Left="-8" Top="-8" Right="1800" Bottom="1088" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLogInW3schools2" Key="{A5A3EC0C-BE3C-4AF0-BE3A-0616B6209262}">
+								<Image FileName="-73112344" Left="0" Top="139" Right="1792" Bottom="1080" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://profile.w3schools.com/signup*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSignUp" Key="{92E153AD-037F-480C-B445-A97D598B5391}">
+										<Image FileName="567104677" Left="1070" Top="470" Right="1400" Bottom="791" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign Up&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;SignUpForm_signup_form__lxM-e&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{1E95CEBF-F816-4655-B83A-86E3E8540A25}">
+										<Image FileName="567104677" Left="1070" Top="470" Right="1400" Bottom="510" />
+										<TypeInfo Item0="{B81FA109-FDB5-4C17-946F-95CF703C75BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordbox" Key="{15910744-3084-4162-8BA1-414CDE74B196}">
+										<Image FileName="-1260850245" Left="1070" Top="513" Right="1400" Bottom="553" />
+										<TypeInfo Item0="{B81FA109-FDB5-4C17-946F-95CF703C75BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{7E8508F0-0900-4F63-B10C-166B7AEC6B73}">
+										<Image FileName="675633997" Left="1070" Top="556" Right="1400" Bottom="596" />
+										<TypeInfo Item0="{B81FA109-FDB5-4C17-946F-95CF703C75BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/input[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox3" Key="{1BF99B74-3A36-426E-A998-FE05CB340396}">
+										<Image FileName="1874334071" Left="1070" Top="599" Right="1400" Bottom="639" />
+										<TypeInfo Item0="{B81FA109-FDB5-4C17-946F-95CF703C75BC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/input[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignUp" Key="{AF379F91-2BBD-46F6-9F26-F13315401176}">
+										<Image FileName="175175524" Left="1070" Top="659" Right="1400" Bottom="699" />
+										<TypeInfo Item0="{6E1FDD40-7089-4A15-9DC7-CC3B9871A54C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign Up&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;CustomButton_button__V5-G+&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]//form//button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="npp" Key="{C3016AE4-D663-4208-B2DC-C18371FCDAC5}">
+						<TypeInfo Item0="{0B4879A1-913A-4CE5-9004-79B70EF0A820}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="npp" />
+							</Property>
+							<Property Name="Name">
+								<Value Value="Process(&quot;npp&quot;)" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Installer_Language" Key="{40F64A1D-0C28-4C4E-A104-0F4FE25F3C75}">
+								<Image FileName="-884471280" Left="0" Top="0" Right="294" Bottom="157" />
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="LocalizedControlType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Installer Language" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="OK" Key="{5E7214F0-4DC6-4F8B-B826-91ED1250C213}">
+										<Image FileName="463563500" Left="116" Top="122" Right="191" Bottom="145" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="OK" Key="{692F25AC-1B0B-4216-B899-B64A46C80F63}">
+												<Image FileName="1124313037" Left="146" Top="127" Right="160" Bottom="140" />
+												<TypeInfo Item0="{BFB9782D-805B-4798-BE08-B99BAF208B10}" />
+												<Properties>
+													<Property Name="Text">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Notepad_v8_6_7_Setup" Key="{41592F55-1E78-47E6-9D16-5EDB13CA9D95}">
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="LocalizedControlType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Notepad++ v8.6.7 Setup " />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="Name">
+										<Value Value="UIAObject(&quot;Notepad_v8_6_7_Setup&quot;)" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Next_" Key="{9DEF63AA-C513-4209-8996-71FE0062B69A}">
+										<Image FileName="718525378" Left="327" Top="353" Right="402" Bottom="376" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Next_" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Cancel" Key="{4F93D419-59E8-4B86-8662-36E6B629B455}">
+										<Image FileName="1620598825" Left="413" Top="353" Right="488" Bottom="376" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Cancel" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="I_Agree" Key="{169FB324-3BDA-48A0-BC3C-855A65053E68}">
+										<Image FileName="-160521392" Left="327" Top="353" Right="402" Bottom="376" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="I_Agree" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Notepad_v8_6_7_Setup2" Key="{F45AA961-28D2-4400-A5CE-0913940A9B5D}">
+								<Image FileName="518794668" Left="0" Top="0" Right="386" Bottom="149" />
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Notepad_v8_6_7_Setup" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Yes" Key="{9AB51168-7078-4209-BC65-8F6A6EF225E4}">
+										<Image FileName="518794668" Left="209" Top="114" Right="284" Bottom="137" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Yes" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Notepad_v8_6_7_Setup3" Key="{F8BBD688-2DE7-4A2C-9FF8-8BAA31E6E64B}">
+								<Image FileName="-888989342" Left="0" Top="0" Right="503" Bottom="390" />
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="Dialog" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Notepad_v8_6_7_Setup" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Install" Key="{187C82DD-F6BB-4A5F-AF02-57E4397A8B25}">
+										<Image FileName="-888989342" Left="327" Top="353" Right="402" Bottom="376" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Install" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Finish" Key="{38BFB741-3DB7-4919-9FF1-6703EBFA8290}">
+										<Image FileName="-1376107527" Left="327" Top="353" Right="402" Bottom="376" />
+										<TypeInfo Item0="{A1DAF9DD-1C1D-4B3A-912F-A2234AC21BDB}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Finish" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{F5BB4151-4956-440C-A2FB-3FBC5C08E632}">
+						<TypeInfo Item0="{0B4879A1-913A-4CE5-9004-79B70EF0A820}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Shell_TrayWnd" Key="{5AED3EA8-A44D-4619-ADA6-3104D905F716}">
+								<Image FileName="1210646725" Left="0" Top="0" Right="1792" Bottom="40" />
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="pane" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Type_here_to_search" Key="{E3975A1A-780B-4427-8F10-192181F630CF}">
+										<Image FileName="-1392849786" Left="48" Top="0" Right="96" Bottom="40" />
+										<TypeInfo Item0="{A53D4350-35F6-4F51-8B60-A7B9345DFF3B}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="TrayButton" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="button" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="Type_here_to_search" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Program_Manager" Key="{D2F79FB6-E791-447C-ACB8-48D829BD42AD}">
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="Progman" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="pane" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Program_Manager" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SHELLDLL_DefView" Key="{FFCCED3A-D1E1-4889-A031-5D46081F5897}">
+										<TypeInfo Item0="{A53D4350-35F6-4F51-8B60-A7B9345DFF3B}" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="SHELLDLL_DefView" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Desktop" Key="{6A28BC00-07C2-4400-9929-FC0B981E2C72}">
+												<TypeInfo Item0="{E38AF937-07DF-412D-BA91-FE981C332602}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="Win32" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="SysListView32" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="list" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Desktop" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="Menu" Key="{AD717722-BA7F-42BD-8FB9-5A7DAF22DC5E}">
+								<Image FileName="1465342274" Left="0" Top="0" Right="246" Bottom="375" />
+								<TypeInfo Item0="{F6F0E313-F0F4-4AD2-B817-F94944FD0206}" />
+								<Properties>
+									<Property Name="FrameworkId">
+										<Value Value="Win32" />
+									</Property>
+									<Property Name="ClassName">
+										<Value Value="#32768" />
+									</Property>
+									<Property Name="LocalizedControlType">
+										<Value Value="menu" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="Menu" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{97310D44-43ED-426C-B598-36195B1E912A}">
+			<Child Name="Page_LandingW3Schools" Owner="{F59B0ED2-E899-4DC3-A88A-13BB07FB2D2C}">
+				<Child Name="Link_Login" Owner="{B9B048E3-8334-497F-92C0-723196A0FB36}" />
+			</Child>
+			<Child Name="Page_Login_W3Schools" Owner="{E84D129D-C956-46BD-9565-B6CD02F64C55}">
+				<Child Name="Txtbox_Email" Owner="{6F654481-BDA9-4514-8426-40125783157C}" />
+				<Child Name="Title_LogIn" Owner="{95201232-7FF2-4E77-BEF0-8C87163BBCB9}" />
+				<Child Name="panelBecomeA" Owner="{5C5E50C8-DB36-4625-A371-CF9AC5C6A398}" />
+			</Child>
+			<Child Name="pageW3schoolsOnlineWebTutorials2" Owner="{D7215A51-8B50-42D7-A955-531B91D1816D}">
+				<Child Name="Txtbox_Search" Owner="{672F4B53-1FD6-4A12-ACC3-565F987BA19F}" />
+				<Child Name="Link_SignUp" Owner="{F1FD9ED3-7BBE-49CD-B172-019176CE6363}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{C8D5DEC2-1562-4665-9940-7EAE37B542F6}" />
+			<Child Name="pageLogInW3schools2" Owner="{A5A3EC0C-BE3C-4AF0-BE3A-0616B6209262}">
+				<Child Name="Form_SignUp" Owner="{92E153AD-037F-480C-B445-A97D598B5391}">
+					<Child Name="TxtBox_Email" Owner="{1E95CEBF-F816-4655-B83A-86E3E8540A25}" />
+					<Child Name="Txtbox_Pwd" Owner="{15910744-3084-4162-8BA1-414CDE74B196}" />
+					<Child Name="Textbox_FirstName" Owner="{7E8508F0-0900-4F63-B10C-166B7AEC6B73}" />
+					<Child Name="Textbox_LastName" Owner="{1BF99B74-3A36-426E-A998-FE05CB340396}" />
+					<Child Name="Btn_SignUp" Owner="{AF379F91-2BBD-46F6-9F26-F13315401176}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="npp" Owner="{C3016AE4-D663-4208-B2DC-C18371FCDAC5}">
+			<Child Name="Popup_Installer_NPP" Owner="{40F64A1D-0C28-4C4E-A104-0F4FE25F3C75}">
+				<Child Name="Btn_OK" Owner="{5E7214F0-4DC6-4F8B-B826-91ED1250C213}">
+					<Child Name="Text_OK" Owner="{692F25AC-1B0B-4216-B899-B64A46C80F63}" />
+				</Child>
+			</Child>
+			<Child Name="Popup_SetupWizard_Npp" Owner="{41592F55-1E78-47E6-9D16-5EDB13CA9D95}">
+				<Child Name="Btn_Next" Owner="{9DEF63AA-C513-4209-8996-71FE0062B69A}" />
+				<Child Name="Btn_Cancel" Owner="{4F93D419-59E8-4B86-8662-36E6B629B455}" />
+				<Child Name="Btn_IAgree" Owner="{169FB324-3BDA-48A0-BC3C-855A65053E68}" />
+			</Child>
+			<Child Name="Popup_CancelConfirmation" Owner="{F45AA961-28D2-4400-A5CE-0913940A9B5D}">
+				<Child Name="Btn_Yes" Owner="{9AB51168-7078-4209-BC65-8F6A6EF225E4}" />
+			</Child>
+			<Child Name="Notepad_v8_6_7_Setup3" Owner="{F8BBD688-2DE7-4A2C-9FF8-8BAA31E6E64B}">
+				<Child Name="Btn_Install" Owner="{187C82DD-F6BB-4A5F-AF02-57E4397A8B25}" />
+				<Child Name="Btn_Finish" Owner="{38BFB741-3DB7-4919-9FF1-6703EBFA8290}" />
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{F5BB4151-4956-440C-A2FB-3FBC5C08E632}">
+			<Child Name="Shell_TrayWnd" Owner="{5AED3EA8-A44D-4619-ADA6-3104D905F716}">
+				<Child Name="Type_here_to_search" Owner="{E3975A1A-780B-4427-8F10-192181F630CF}" />
+			</Child>
+			<Child Name="Program_Manager" Owner="{D2F79FB6-E791-447C-ACB8-48D829BD42AD}">
+				<Child Name="SHELLDLL_DefView" Owner="{FFCCED3A-D1E1-4889-A031-5D46081F5897}">
+					<Child Name="Desktop" Owner="{6A28BC00-07C2-4400-9929-FC0B981E2C72}" />
+				</Child>
+			</Child>
+			<Child Name="Menu" Owner="{AD717722-BA7F-42BD-8FB9-5A7DAF22DC5E}" />
+		</Child>
+	</LogicalNodes>
+</Root>

@@ -1,0 +1,6 @@
+﻿function EventControl1_OnUnexpectedWindow(Sender, Window, LogParams)
+{
+  if(Aliases.npp.Exists){
+    Sys.Process("npp").Terminate();
+  }
+}

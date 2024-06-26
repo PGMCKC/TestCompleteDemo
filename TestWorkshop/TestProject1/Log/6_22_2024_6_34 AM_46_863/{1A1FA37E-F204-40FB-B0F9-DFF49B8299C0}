@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_SetupWizard_Npp.Btn_Next"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2750516667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2750527199"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2741564005"/>
+			<Prp name="message" type="S" value="Script to Install Notepad ++ in system."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 11">
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;npp.&amp;#8203;Notepad_v8_6_7_Setup3.&amp;#8203;&lt;a href=&quot;namemapping://{C627C715-C3EE-4261-A825-212B32E0DFD4}.{38BFB741-3DB7-4919-9FF1-6703EBFA8290}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Finish&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;FrameworkId&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ClassName&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LocalizedControlType&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;Finish&lt;/td&gt;&lt;td&gt;Next_&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAIAbm0BACQAMzhCRkI3NDF4M0RCN3g0OTE5eDlGRjF4NjcwM0VCRkE4&#xA;MjkwBwBwcm9qZWN0AQAkAEM2MjdDNzE1eEMzRUV4NDI2MXhBODI1eDIxMkIzMkUwREZENAEAYgAA&#xA;xbgAAQB0AADFoQABAHIAAMaSAAQAdHlwZQEACwBSZWNvZ25pdGlvbgYAY29uZmlnAQAVAERlZmF1&#xA;bHQgQ29uZmlndXJhdGlvbgcAcGljZmlsZQEAKgB7OUI5REJEQzMtRDZBNi00NTY4LTg5ODEtNzI3&#xA;NkY4M0VFQTg2fS5wbmcBAGwAAMWHAAkAcHJvcGNvdW50AAAFAAQAbW9kZQAAAAAEAAsAZm91bmR2&#xA;YWx1ZXMFAAEAMQEAGQBANDIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwAQAwAQAVAEA1NzAwNjkwMDZF&#xA;MDAzMzAwMzIwMAEAMwEAFQBANEUwMDY1MDA3ODAwNzQwMDVGMDABADIBABkAQDYyMDA3NTAwNzQw&#xA;MDc0MDA2RjAwNkUwMAEANAEAMAAwMzAwMDAwMDAwMDAwMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAAAAYAdmFsdWVzBQABADEBABkAQDQyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMAEA&#xA;MAEAFQBANTcwMDY5MDA2RTAwMzMwMDMyMDABADMBABkAQDQ2MDA2OTAwNkUwMDY5MDA3MzAwNjgw&#xA;MAEAMgEAGQBANjIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwAQA0AQAwADAzMDAwMDAwMDAwMDAwMDAw&#xA;MTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAABQBuYW1lcwUAAQAxAQAJAENsYXNzTmFt&#xA;ZQEAMAEACwBGcmFtZXdvcmtJZAEAMwEAEABPYmplY3RJZGVudGlmaWVyAQAyAQAUAExvY2FsaXpl&#xA;ZENvbnRyb2xUeXBlAQA0AQAQAE9iamVjdEdyb3VwSW5kZXgAAAcAbWF0Y2hlZAUAAQAxAADvv7/n&#xA;v78BADAAAO+/v+e/vwEAMwAAAQABADIAAO+/v+e/vwEANAAA77+/57+/AAA=&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2750514352"/>
+			<Prp name="message" type="S" value="The &quot;Finish&quot; object was replaced with a similar object."/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Notepad_v8_6_7_Setup3.UIAObject(&quot;Next_&quot;)"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.274858125"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2748593981"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_SetupWizard_Npp.Btn_Next"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2746690741"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2746765972"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{392D12C1-08FA-4E61-BD79-87D13C4B364A}"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_SetupWizard_Npp.Btn_Next"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2746611111"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2746682639"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_SetupWizard_Npp.Btn_Next"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2744584954"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2744595486"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;npp.&amp;#8203;&lt;a href=&quot;namemapping://{C627C715-C3EE-4261-A825-212B32E0DFD4}.{41592F55-1E78-47E6-9D16-5EDB13CA9D95}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Notepad_v8_6_7_Setup&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;LocalizedControlType&lt;/td&gt;&lt;td&gt;Dialog&lt;/td&gt;&lt;td&gt;Dialog&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WndCaption&lt;/td&gt;&lt;td&gt;Notepad++ v8.6.7 Setup &lt;/td&gt;&lt;td&gt;Notepad++ v8.6.7 Setup&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ClassName&lt;/td&gt;&lt;td&gt;#32770&lt;/td&gt;&lt;td&gt;#32770&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Name&lt;/td&gt;&lt;td&gt;UIAObject(&quot;Notepad_v8_6_7_Setup&quot;)&lt;/td&gt;&lt;td&gt;UIAObject(&quot;Notepad_v8_6_7_Setup&quot;)&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAcAcGljZmlsZQEAKgB7MjZCQUUzRUYtNDE4Ri00NUVFLUFDMUMtNUMx&#xA;QjUzNzJCOTNEfS5wbmcJAHByb3Bjb3VudAAABAABAHQAAAAAAQBsAAAAAAQAdHlwZQEACwBSZWNv&#xA;Z25pdGlvbgcAcHJvamVjdAEAJABDNjI3QzcxNXhDM0VFeDQyNjF4QTgyNXgyMTJCMzJFMERGRDQB&#xA;AGIAAMaGAAEAcgAAx7cABABtb2RlAAAAAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlv&#xA;bgIAbm0BACQANDE1OTJGNTV4MUU3OHg0N0U2eDlEMTZ4NUVEQjEzQ0E5RDk1BAAGAHZhbHVlcwQA&#xA;AQAwAQAZAEA0NDAwNjkwMDYxMDA2QzAwNkYwMDY3MDABADEBAF0AQDRFMDA2RjAwNzQwMDY1MDA3&#xA;MDAwNjEwMDY0MDAyQjAwMkIwMDIwMDA3NjAwMzgwMDJFMDAzNjAwMkUwMDM3MDAyMDAwNTMwMDY1&#xA;MDA3NDAwNzUwMDcwMDAyMDAwAQAyAQAZAEAyMzAwMzMwMDMyMDAzNzAwMzcwMDMwMDABADMBAMKF&#xA;AEA1NTAwNDkwMDQxMDA0RjAwNjIwMDZBMDA2NTAwNjMwMDc0MDAyODAwMjIwMDRFMDA2RjAwNzQw&#xA;MDY1MDA3MDAwNjEwMDY0MDA1RjAwNzYwMDM4MDA1RjAwMzYwMDVGMDAzNzAwNUYwMDUzMDA2NTAw&#xA;NzQwMDc1MDA3MDAwMjIwMDI5MDAAAAcAbWF0Y2hlZAQAAQAwAADvv7/nv78BADEAAAEAAQAyAADv&#xA;v7/nv78BADMAAO+/v+e/vwAACwBmb3VuZHZhbHVlcwQAAQAwAQAZAEA0NDAwNjkwMDYxMDA2QzAw&#xA;NkYwMDY3MDABADEBAFkAQDRFMDA2RjAwNzQwMDY1MDA3MDAwNjEwMDY0MDAyQjAwMkIwMDIwMDA3&#xA;NjAwMzgwMDJFMDAzNjAwMkUwMDM3MDAyMDAwNTMwMDY1MDA3NDAwNzUwMDcwMDABADIBABkAQDIz&#xA;MDAzMzAwMzIwMDM3MDAzNzAwMzAwMAEAMwEAwoUAQDU1MDA0OTAwNDEwMDRGMDA2MjAwNkEwMDY1&#xA;MDA2MzAwNzQwMDI4MDAyMjAwNEUwMDZGMDA3NDAwNjUwMDcwMDA2MTAwNjQwMDVGMDA3NjAwMzgw&#xA;MDVGMDAzNjAwNUYwMDM3MDA1RjAwNTMwMDY1MDA3NDAwNzUwMDcwMDAyMjAwMjkwMAAABQBuYW1l&#xA;cwQAAQAwAQAUAExvY2FsaXplZENvbnRyb2xUeXBlAQAxAQAKAFduZENhcHRpb24BADIBAAkAQ2xh&#xA;c3NOYW1lAQAzAQAEAE5hbWUAAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2744583796"/>
+			<Prp name="message" type="S" value="The &quot;Notepad_v8_6_7_Setup&quot; object was replaced with a similar object."/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;npp.&amp;#8203;Notepad_v8_6_7_Setup.&amp;#8203;&lt;a href=&quot;namemapping://{C627C715-C3EE-4261-A825-212B32E0DFD4}.{169FB324-3BDA-48A0-BC3C-855A65053E68}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;I_Agree&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;FrameworkId&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ClassName&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LocalizedControlType&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;I_Agree&lt;/td&gt;&lt;td&gt;Next_&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAbAAAxYcAAgBubQEAJAAxNjlGQjMyNHgzQkRBeDQ4QTB4QkMzQ3g4&#xA;NTVBNjUwNTNFNjgBAHQAAMWhAAcAcGljZmlsZQEAKgB7MTFGMjc2QkQtRTFCQi00NEU0LTg3NUYt&#xA;OUI5NDU2NDYxQTg5fS5wbmcHAHByb2plY3QBACQAQzYyN0M3MTV4QzNFRXg0MjYxeEE4MjV4MjEy&#xA;QjMyRTBERkQ0BAB0eXBlAQALAFJlY29nbml0aW9uAQByAADGkgABAGIAAMW4AAYAY29uZmlnAQAV&#xA;AERlZmF1bHQgQ29uZmlndXJhdGlvbgkAcHJvcGNvdW50AAAFAAQAbW9kZQAAAAAEAAcAbWF0Y2hl&#xA;ZAUAAQAxAADvv7/nv78BADAAAO+/v+e/vwEAMwAAAQABADIAAO+/v+e/vwEANAAA77+/57+/AAAL&#xA;AGZvdW5kdmFsdWVzBQABADEBABkAQDQyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMAEAMAEAFQBANTcw&#xA;MDY5MDA2RTAwMzMwMDMyMDABADMBABUAQDRFMDA2NTAwNzgwMDc0MDA1RjAwAQAyAQAZAEA2MjAw&#xA;NzUwMDc0MDA3NDAwNkYwMDZFMDABADQBADAAMDMwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwAAAGAHZhbHVlcwUAAQAxAQAZAEA0MjAwNzUwMDc0MDA3NDAwNkYw&#xA;MDZFMDABADABABUAQDU3MDA2OTAwNkUwMDMzMDAzMjAwAQAzAQAdAEA0OTAwNUYwMDQxMDA2NzAw&#xA;NzIwMDY1MDA2NTAwAQAyAQAZAEA2MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDABADQBADAAMDMwMDAw&#xA;MDAwMDAwMDAwMDAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAFAG5hbWVzBQABADEB&#xA;AAkAQ2xhc3NOYW1lAQAwAQALAEZyYW1ld29ya0lkAQAzAQAQAE9iamVjdElkZW50aWZpZXIBADIB&#xA;ABQATG9jYWxpemVkQ29udHJvbFR5cGUBADQBABAAT2JqZWN0R3JvdXBJbmRleAAA&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.274658912"/>
+			<Prp name="message" type="S" value="The &quot;I_Agree&quot; object was replaced with a similar object."/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="122"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_Installer_NPP.Btn_OK"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="153"/>
+					<Prp name="object left" type="I" value="116"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="145"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point y" type="I" value="133"/>
+					<Prp name="object right" type="I" value="191"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2743368518"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_Installer_NPP.Btn_OK&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Installer_Language&quot;).UIAObject(&quot;OK&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2743380208"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;npp.&amp;#8203;Notepad_v8_6_7_Setup3.&amp;#8203;&lt;a href=&quot;namemapping://{C627C715-C3EE-4261-A825-212B32E0DFD4}.{187C82DD-F6BB-4A5F-AF02-57E4397A8B25}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Install&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;FrameworkId&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;Win32&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ClassName&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;Button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;LocalizedControlType&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;button&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;Install&lt;/td&gt;&lt;td&gt;Next_&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectGroupIndex&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAcgAAxpIAAQB0AADFoQABAGwAAMWHAAkAcHJvcGNvdW50AAAFAAcA&#xA;cHJvamVjdAEAJABDNjI3QzcxNXhDM0VFeDQyNjF4QTgyNXgyMTJCMzJFMERGRDQHAHBpY2ZpbGUB&#xA;ACoAe0MyN0QwRTdDLUU2RTMtNDVCOS1CMDBBLUFDREVCNUI5QjMzQX0ucG5nAQBiAADFuAAEAHR5&#xA;cGUBAAsAUmVjb2duaXRpb24GAGNvbmZpZwEAFQBEZWZhdWx0IENvbmZpZ3VyYXRpb24CAG5tAQAk&#xA;ADE4N0M4MkREeEY2QkJ4NEE1RnhBRjAyeDU3RTQzOTdBOEIyNQQAbW9kZQAAAAAEAAUAbmFtZXMF&#xA;AAEAMQEACQBDbGFzc05hbWUBADABAAsARnJhbWV3b3JrSWQBADMBABAAT2JqZWN0SWRlbnRpZmll&#xA;cgEAMgEAFABMb2NhbGl6ZWRDb250cm9sVHlwZQEANAEAEABPYmplY3RHcm91cEluZGV4AAALAGZv&#xA;dW5kdmFsdWVzBQABADEBABkAQDQyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMAEAMAEAFQBANTcwMDY5&#xA;MDA2RTAwMzMwMDMyMDABADMBABUAQDRFMDA2NTAwNzgwMDc0MDA1RjAwAQAyAQAZAEA2MjAwNzUw&#xA;MDc0MDA3NDAwNkYwMDZFMDABADQBADAAMDMwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwAAAHAG1hdGNoZWQFAAEAMQAA77+/57+/AQAwAADvv7/nv78BADMAAAEA&#xA;AQAyAADvv7/nv78BADQAAO+/v+e/vwAABgB2YWx1ZXMFAAEAMQEAGQBANDIwMDc1MDA3NDAwNzQw&#xA;MDZGMDA2RTAwAQAwAQAVAEA1NzAwNjkwMDZFMDAzMzAwMzIwMAEAMwEAHQBANDkwMDZFMDA3MzAw&#xA;NzQwMDYxMDA2QzAwNkMwMAEAMgEAGQBANjIwMDc1MDA3NDAwNzQwMDZGMDA2RTAwAQA0AQAwADAz&#xA;MDAwMDAwMDAwMDAwMDAwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAAA&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2748580093"/>
+			<Prp name="message" type="S" value="The &quot;Install&quot; object was replaced with a similar object."/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="The process ID is 5336."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.274272963"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Users\labuser\Downloads\npp.exe&quot; started."/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object top" type="I" value="353"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.npp.Popup_SetupWizard_Npp.Btn_Next"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="364"/>
+					<Prp name="object left" type="I" value="327"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object bottom" type="I" value="376"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point y" type="I" value="364"/>
+					<Prp name="object right" type="I" value="402"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="datetime" type="D" value="45465.2746590278"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.npp.Popup_SetupWizard_Npp.Btn_Next&#xA;(Sys.Process(&quot;npp&quot;).UIAObject(&quot;Notepad_v8_6_7_Setup&quot;).UIAObject(&quot;Next_&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="45465.2746601852"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

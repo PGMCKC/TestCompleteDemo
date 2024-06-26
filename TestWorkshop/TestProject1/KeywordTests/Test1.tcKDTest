@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{A84AA523-8D65-4BD8-B270-3EE67BDE77F2}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.Page_LandingW3Schools" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A10DC92EC421A516ABDE61D7EF707EC7CD1B2F7CCEFDFC65BFFEEA358DC2CE2E0E7119197CB64ADA4A45B92C75FBE4B1CEEB3F08F79EE9FB3FF3E9BFFFDE1721D8E3C4A7CFD23EB1B1D8CC90B2938AF258EBF50FA617447BAEF3FE7FFAD5B5FFD1571166785FF8FB4FDA37360ED90C909B5D96B97D46D79BBE27F37FF7999EFFBBDEFE85BB01E4168F139FBF7088CBCAC2CC508B516F47D69BBA3BEDFFFDC7A7FEFF3C38EFFFCFFD73FEFF79F7F47FF16D243700CDD02CEAEE86E9B7EEB7BD04D3EFB9DEFBFF8367E7FF7FED0FFCFFA5D5098CBFF6F8FEBFF3EC198A1BEC375EBB0ED3EFB6C2E31B4C7FCF99DEFFBF4EAC86EB8599F1F3D0C2FF49D7116EF03AF7EB374CBFEB7277B0FEC04DC1FF4F5F7DF5FFD7990D18FA7F1D5DF63FEE1A42BFE7D99FBF60FAADFB6C2E80EC5F7163D5FFC4C477FF8FEE7BFBFFDBF438B8195FA744FE3FFFE21D8AFBEDD65DBE02D3AF1AA1D698B433F9FFBA8D9FFE5B5ABEFAEFEEFEFAFFFE9DEFFEFF38BFE3FFEF0BDBFEFFFBFEF9FFBE77FFFEAF7B85C0FE654DCD30FD6C7C6CA21B4EEF7AE3EDFD06AC1F6406083B38BCFEEFE9F906037B783CFDCEC3A3A004D30FA2151583C22D2D5FFE83E9C5478B8BC7A622EB85B145454363CDCCEE7FC6A5D7CCECC11731B1C844987A6C341B9B84949C5C759BBEFE814BE6E68FBE81B0BEFEC14B727235ED6C6C92D2D8F4502206005B5EADC2" />
+					<Bitmap Name="Aliases.browser.Page_Login_W3Schools" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A10DC92EC421A516ABDE61D7EF707EC7CD1B2F7CCEFDFC65BFFEEA358DC2CE2E0E7119197CB64ADA4A45B92C75FBE4B1CEEB3F08F79EE9FB3FF3E9BFFFDE1721D8E3C4A7CFD23EB1B1D8CC90B2938AF258EBF50FA617447BAEF3FE7FFAD5B5FFD1571166785FF8FB4FDA37360ED90C909B5D96B97D46D79BBE27F37FF7999EFFBBDEFE85BB01E4168F139FBF7088CBCAC2CC508B516F47D69BBA3BEDFFFDC7A7FEFF3C38EFFFCFFD73FEFF79F7F47FF16D243700CDD02CEAEE86E9B7EEB7BD04D3EFB9DEFBFF8367E7FF7FED0FFCFFA5D5098CBFF6F8FEBFF3EC198A1BEC375EBB0ED3EFB6C2E31B4C7FCF99DEFFBF4EAC86EB8599F1F3D0C2FF49D7116EF03AF7EB374CBFEB7277B0FEC04DC1FF4F5F7DF5FFD7990D18FA7F1D5DF63FEE1A42BFE7D99FBF60FAADFB6C2E80EC5F7163D5FFC4C477FF8FEE7BFBFFDBF438B8195FA744FE3FFFE21D8AFBEDD65DBE02D3AF1AA1D698B433F9FFBA8D9FFE5B5ABEFAEFEEFEFAFFFE9DEFFEFF38BFE3FFEF0BDBFEFFFBFEF9FFBE77FFFEAF7B85C0FE654DCD30FD6C7C6CA21B4EEF7AE3EDFD06AC1F6406083B38BCFEEFE9F906037B783CFDCEC3A3A004D30FA2151583C22D2D5FFE83E9C5478B8BC7A622EB85B145454363CDCCEE7FC6A5D7CCECC11731B1C844987A6C341B9B84949C5C759BBEFE814BE6E68FBE81B0BEFEC14B727235ED6C6C92D2D8F4502206005B5EADC2" />
+					<Bitmap Name="Aliases.browser.Page_W3Schools" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A10DC92EC421A516ABDE61D7EF707EC7CD1B2F7CCEFDFC65BFFEEA358DC2CE2E0E7119197CB64ADA4A45B92C75FBE4B1CEEB3F08F79EE9FB3FF3E9BFFFDE1721D8E3C4A7CFD23EB1B1D8CC90B2938AF258EBF50FA617447BAEF3FE7FFAD5B5FFD1571166785FF8FB4FDA37360ED90C909B5D96B97D46D79BBE27F37FF7999EFFBBDEFE85BB01E4168F139FBF7088CBCAC2CC508B516F47D69BBA3BEDFFFDC7A7FEFF3C38EFFFCFFD73FEFF79F7F47FF16D243700CDD02CEAEE86E9B7EEB7BD04D3EFB9DEFBFF8367E7FF7FED0FFCFFA5D5098CBFF6F8FEBFF3EC198A1BEC375EBB0ED3EFB6C2E31B4C7FCF99DEFFBF4EAC86EB8599F1F3D0C2FF49D7116EF03AF7EB374CBFEB7277B0FEC04DC1FF4F5F7DF5FFD7990D18FA7F1D5DF63FEE1A42BFE7D99FBF60FAADFB6C2E80EC5F7163D5FFC4C477FF8FEE7BFBFFDBF438B8195FA744FE3FFFE21D8AFBEDD65DBE02D3AF1AA1D698B433F9FFBA8D9FFE5B5ABEFAEFEEFEFAFFFE9DEFFEFF38BFE3FFEF0BDBFEFFFBFEF9FFBE77FFFEAF7B85C0FE654DCD30FD6C7C6CA21B4EEF7AE3EDFD06AC1F6406083B38BCFEEFE9F906037B783CFDCEC3A3A004D30FA2151583C22D2D5FFE83E9C5478B8BC7A622EB85B145454363CDCCEE7FC6A5D7CCECC11731B1C844987A6C341B9B84949C5C759BBEFE814BE6E68FBE81B0BEFEC14B727235ED6C6C92D2D8F4502206005B5EADC2" />
+					<Bitmap Name="Aliases.explorer" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A13EF96CABD57F1846371D260EA291E5CAF75CB830F9F9FFFF208CAC062606A3B1C921EB25473FCC6C188DCD0E62E4B0A941360B9D0D538F4EA3ABC3C547D707E36FBAB215250CB1E907A981A91FA5FFFF77B8F81B2BF6BAF2E77FE5837F78C30A94FE40FA41E18C0C60669AAC3A738185971F940D7102901A987A645A67C2DA0D84F4E234940409006F84809E" />
+					<Bitmap Name="Aliases.explorer.Program_Manager" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+					<Bitmap Name="Aliases.explorer.Program_Manager.SHELLDLL_DefView" Data="61717A697000000001000000360400007801AD924B4B02511886DFA01FD04F68D92FF007B40C82A0562D5A4910EDDAB48A0ABA407659489B6A11512B8B36454582250CD8852CB58B76C12EE6E4781967C6716E6A73460D472D233AC377CE0CC3F39C77BE39ED9D966618C3A2CF6D7AB594AA09ADFA9D3E4AEF8B0FC5B980FFBBAC1D1634AA9F76DB5BB323E0BBC495F71C671E0A94DB0597731F1BAB4B989F1E33DC8DF8D0DD0D6EAFFD350EE7C16E4DB66A17D93FFCF488C7FB508DC3ED3A3478F12D08E1C957370BE13FE8285E5F9E4D8E8BB3137828B7C148CC2BC4C8C3B73C717C57A4B772220A8979ABCB97BF87F03945822665A0893CD44C1A2A9F84928E434EC52027A38D794DA97128C4C1E90E3666E2ABFF39D95FA6C39022F7C88603C83E7821064F91B9A620F88F21F88E4CBC915716A16505687AD6F8E61CF81D3BB8AD19B0EB23482D0F2161EF47DCD60B66AA07B1892EDCDAAC5F2797F0795546AEE4601CB3486E2F20E9B021B13E0E666518B1C541D0B37DA027BB111DED40C43E60E20B39CDE42039543E05954B406119BD67B4DEFB7753EECA7E17F279543A7246EF39A8026B72905E95B9F24AF2FFB6EAF165CF5FD64FAED21512" />
+					<Bitmap Name="Aliases.explorer.UIAObject(&quot;Menu&quot;)" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data DescriptionEdited="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="9" ValueValue="5300740065007000200031002E00200043006C00690063006B0020006F006E0020004C006F00670069006E000D000A00" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data DescriptionEdited="True" MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Step 1. Click on Login link." />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.Exists" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Closes a page open in the browser." Action="Close">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.Page_Login_W3Schools;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+						<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="www.w3schools.com" />
+								<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data DescriptionEdited="True" Action="Click">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+								<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+									<Values IsEnum="True">
+										<Value Type="1" Value="0" Text="skNoShift" />
+										<Value Type="1" Value="8192" Text="skShift" />
+										<Value Type="1" Value="32768" Text="skAlt" />
+										<Value Type="1" Value="16384" Text="skCtrl" />
+									</Values>
+								</Parameter>
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.Page_LandingW3Schools.Link_Login;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Simulates one or several keypresses." Action="Keys">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Keys" DefVarType="8" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Username" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.Page_Login_W3Schools.Txtbox_Email;" />
+						</Data>
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Enters text in the text box." Action="SetText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="prateek" />
+							</Parameters>
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.Page_Login_W3Schools.Txtbox_Email;" />
+						</Data>
+					</Operation>
+					<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+						<Data LabelName="test1" />
+					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="Main" Unit="Main" />
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="Test2" />
+					</Operation>
+					<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+						<Data DescriptionEdited="True" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page_Login_W3Schools.Txtbox_Email" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="MyName" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+						<Data Name="test1" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page_Login_W3Schools.Title_LogIn" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="textContent" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="LogInTitle" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
+						<Data Description="Stops running the project tests and posts the specified error string to the log.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+								<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="FindChildM" Unit="FindObject">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="PropArray" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Text" />
+						<Parameter Name="ValuesArray" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="OK" />
+						<Parameter Name="PObject" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.npp" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Moves the mouse cursor to Item and then simulates a right click. Item may be specified by index, from 0, or by name." Action="ClickItemR">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Prateek" />
+						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.explorer.Program_Manager.SHELLDLL_DefView.Desktop;" />
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="verifyImageIconExistence" Unit="VerifyImage">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="parentObj" DefVarType="12" DefValueType="0" DefValueValue="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page_Login_W3Schools.panelBecomeA" />
+						<Parameter Name="iconName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="icon_w3schools" />
+						<Parameter Name="mouseCursor" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="pixelTolerance" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="12" ValueType="0" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
+				<Data Description="Stops running the project tests and posts the specified error string to the log.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CurrentTestOnly" DefVarType="0" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="ErrorMessage" DefVarType="0" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5006C6DA-7702-45C5-B4BB-DCBD0DC7B03E}">
+				<Data Description="Compares the %n Stores item with the image of the %p1 object." Checkpoint="panelBecomeA">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.Page_Login_W3Schools.panelBecomeA" />
+						<Parameter Name="Transparent" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Mouse" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="PixelTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="ColorTolerance" DefVarType="3" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Mask" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}">
+				<Data Description="Moves the mouse cursor to the menu item specified and then simulates a single click." Action="Click" MenuType="2" PreferredMenu="PopupMenu">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="Open" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.explorer.UIAObject(&quot;Menu&quot;);" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{15785F3A-B43C-45B8-8E14-811554FB81F0}" />
+</Root>
