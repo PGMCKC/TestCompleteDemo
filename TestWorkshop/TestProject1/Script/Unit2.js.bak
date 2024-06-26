@@ -20,7 +20,7 @@ function buttonFound() {
     var PObject = Aliases.npp
     var KeyValue = Project.Variables.ValueText;
 
-    var ObjectFound = FindObject.FindAllChildrenM(PropArray, ValuesArray, PObject, ObjectName, false, false, false, true, KeyValue);
+    var ObjectFound = FindObject.FindAllChildrenM(PropArray, ValuesArray, PObject, ObjectName, false, false, true, false, KeyValue);
     if (ObjectFound == true) {
       Log.Checkpoint("Button found and clicked Successfully")
     }
