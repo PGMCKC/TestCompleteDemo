@@ -22,6 +22,6 @@ function buttonFound() {
 
     var ObjectFound = FindObject.FindAllChildrenM(PropArray, ValuesArray, PObject, ObjectName, false, false, true, false, KeyValue);
     if (ObjectFound == true) {
-      Log.Checkpoint("button found and clicked Successfully")
+      Log.Checkpoint("object found and clicked Successfully")
     }
 }
