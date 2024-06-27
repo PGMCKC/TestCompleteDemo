@@ -13,7 +13,8 @@ function ClickButton() {
 }
 
 function buttonFound() {
-//    TestedApps.npp.Run();
+
+//TestedApps.npp.Run();
     var PropArray = Project.Variables.Prop1;
     var ValuesArray = Project.Variables.Val1;
     var ObjectName = Project.Variables.ButtonText;

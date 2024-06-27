@@ -5,6 +5,7 @@
 			<child name="NotepadInstaller" key="{392D12C1-08FA-4E61-BD79-87D13C4B364A}" path="NotepadInstaller.js" />
 			<child name="VerifyImage" key="{A1BB7B77-5B15-43EB-A529-75AC18034A94}" path="VerifyImage.js" />
 			<child name="FindObject" key="{CFAE5BCA-7401-4897-859E-57D247A69B13}" path="FindObject.js" />
+			<child name="DDT_Functions" key="{EFFC0386-B6AB-4D10-BF28-D5AD8BD0898C}" path="DDT_Functions.js" />
 		</folder>
 		<folder name="RegressionSuite">
 			<child name="Main" key="{A7B78233-3B53-44FF-911B-D785AA9CD630}" path="Main.js" />

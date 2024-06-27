@@ -155,6 +155,17 @@
 			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
 				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
 			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="verifyExcelDataExists" Unit="DDT_Functions">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="DataFile.xlsx" />
+						<Parameter Name="sheetName" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Sheet1" />
+						<Parameter Name="columnNameArray" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="Age" />
+						<Parameter Name="columnValue" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="8" ValueType="6" ValueValue="33" />
+						<Parameter Name="columnNumber" DefVarType="12" DefValueType="0" DefValueValue="0" VarType="3" ValueType="1" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Parameters Key="{9C3C6140-E441-4C7C-B14C-F5F0A209D8F4}" />
